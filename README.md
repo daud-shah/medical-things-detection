@@ -8,7 +8,7 @@
 A real-time surgical instrument detection system that identifies 33 medical tools in operating room videos to assist in inventory management and procedural documentation.
 
 ## 🌟 Features
-- **33-class instrument detection** using YOLOv8 (Coveralls, Hemostats, Mayo scissors, etc.)
+- **33-class instrument detection** using YOLOv11 (Coveralls, Hemostats, Mayo scissors, etc.)
 - **Frame-by-frame analysis** with 150-600ms processing time
 - **Visual annotation** of detected instruments
 - **Video processing pipeline** with OpenCV
@@ -72,15 +72,11 @@ numpy==1.23.5
 torch==1.12.1
 ```
 
-## 🎮 Demo
-![Surgical Detection Demo](demo.gif)  
-*(Replace with your actual demo screenshot/video)*
-
 ## 🧠 How It Works
 1. **Frame Capture**:  
    - OpenCV reads video frames (640x384 resolution)
    
-2. **YOLOv8 Inference**:  
+2. **YOLOv11 Inference**:  
    - Detects instruments with class-specific confidence scores
 
 3. **Visualization**:  
