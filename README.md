@@ -1,5 +1,9 @@
 # 🏥 AI Surgical Instrument Detection System  
-*Python • YOLOv8 • OpenCV • Streamlit*
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.22+-orange)
+![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-red)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A real-time surgical instrument detection system that identifies 33 medical tools in operating room videos to assist in inventory management and procedural documentation.
 
